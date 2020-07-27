@@ -1,0 +1,51 @@
+body {
+    font-family: 'Slabo 27px', serif;
+}
+
+#inicio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url('../img/inicio.jpg');
+    background-size: cover;
+    padding-top: 250px;
+    min-height: 500px;
+    color: white;
+   }
+
+.navbar {
+background-color:rgb(34, 56, 67) ;
+padding: 30px;
+}
+
+.buttons {
+    color: white;
+    margin-right: 10px;
+    border: none;
+    
+}
+
+.buttons:hover {
+    background-color:rgb(231, 164, 109) !important;
+}
+
+.navbar-toggler {
+    font-size: 20px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.content-center {
+  
+    text-align: center;
+
+}
+
+.des {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.top-plan {
+    background:rgb(34, 56, 67) ;
+    color: white;
+}
